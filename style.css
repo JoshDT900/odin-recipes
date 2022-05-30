@@ -1,15 +1,35 @@
-div {
-  color: white;
-  background-color: rgb(140, 241, 248);
-}
-
-p {
-  color: red;
+body {
+  background-color: rgb(149, 195, 248);
 }
 
 img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
   height: auto;
-  width: 500px;
+  width: 800px;
+  border: solid 5px black;
+}
+
+div {
+  background-color: rgb(193, 238, 241);
+}
+
+.recipe-info {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 75%;
+  color: rgb(0, 0, 0);
+  border: solid 5px black;
+}
+
+p {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
@@ -18,8 +38,7 @@ h1 {
   transform: translate(-50%);
   width: 50%;  
   border: solid 3px black;
-  outline: 2px solid black;
-  outline-offset: 5px;
+  border-radius: 10px;
   font-size: 60px;
   text-align: center;
   background-color: lightblue;
@@ -27,11 +46,22 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 70%;
+  width: 75%;
   border: solid rgb(114, 114, 129) 5px;
 }
 
